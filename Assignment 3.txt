@@ -1,0 +1,6 @@
+1. Please describe what data set you selected and why you selected it.
+I selected a bi-parental mapping population for QTL analysis of stripe rust resistance.
+2. The data you found must be accessible to you either from your own research or on the internet Where can your data be found?  If it is available on the internet please provide a link to the dataset.
+This data cannot be found on the internet it is direct research.
+3. If your selected data is from your graduate research do you have permission from your advisor to use it for class?
+There should be no problem with using this data for class.
