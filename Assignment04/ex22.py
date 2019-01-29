@@ -1,0 +1,29 @@
+=
++
+-
+*
+()
+""
+''
+{}
+/
+\
+argv
+args
+script
+print()
+print(f)
+#
+def
+from
+sys
+import
+$
+w = write
+target.truncate()
+target.close()
+open
+read
+prompt = '> '
+input()
+end=
