@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --partition=hort503
+#SBATCH --account=hort503
+#SBATCH --job-name=blast_rice
+#SBATCH --time=00:10:00
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=5
+#SBATCH --output='blastp-rice_all-vs-swissprot-th_1e-6.txt'
+
+module use /data/ficklin/modulefiles
+module add blast/2.8.1
+
+blastp -query ../example-data/all.pep -db ../example-data/swissprot -num_threads 5 -outfmt 7 -evalue 1e-6
